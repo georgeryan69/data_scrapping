@@ -2,9 +2,13 @@ import pandas as pd
 import openai # type: ignore
 import json
 import time
+import os
+from dotenv import load_dotenv
 
+load_dotenv(override=True)  # Load environment variables from .env file
+apikey = os.getenv("OPENAI_API_KEY")
 # === 1. Connect to OpenAI GPT-4 Turbo ===
-client = openai.OpenAI(api_key="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")  # Replace with your real OpenAI API key
+client = openai.OpenAI(api_key=apikey)
 
 # === 2. Fabric info extraction prompt using GPT-4 Turbo ===
 def call_openai_chat(description, model="gpt-4-turbo"):
