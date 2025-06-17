@@ -1,0 +1,2 @@
+[24568:32248:0610/144812.254:INFO:components\enterprise\browser\controller\chrome_browser_cloud_management_controller.cc:202] No machine level policy manager exists.
+[24568:32248:0610/144812.288:WARNING:chrome\browser\extensions\extension_service.cc:359] --load-extension is not allowed in Google Chrome, ignoring.
