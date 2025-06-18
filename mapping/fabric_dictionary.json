@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "total_unique_fabrics": 0,
+    "original_count": 0,
+    "duplicates_removed": 0
+  },
+  "fabrics_list": [],
+  "fabrics_by_category": {
+    "woven": [],
+    "knit": [],
+    "other": []
+  },
+  "fabrics_indexed": {},
+  "index_to_fabric": {}
+}
